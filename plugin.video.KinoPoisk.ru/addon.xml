@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.KinoPoisk.ru"
        name="KinoPoisk"
-       version="4.1.8"
+       version="4.8.6"
        provider-name="TDW">
   <requires>
-    <import addon="plugin.video.tam"/>  </requires>
+    <import addon="plugin.video.tam" optional="true"/>  
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
@@ -12,7 +13,8 @@
   <extension point="xbmc.addon.metadata">
     <summary>KinoPoisk.ru</summary>
     <description>Поиск фильмов и сериалов.  
-Donate: http://paypal.me/tdw1980
+Forum: https://kodi.moy.su
+Donate: https://goo.su/iQCJl6h
     </description>
     <platform>all</platform>
     <assets>
